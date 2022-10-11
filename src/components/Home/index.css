@@ -1,0 +1,32 @@
+.home-bg {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.total-cont {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+  .total-cont {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .total-cont {
+    flex-wrap: wrap;
+  }
+}
+
+.graphs {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
